@@ -1,3 +1,7 @@
+''' Author: Karunesh
+	Created On: 16/05/2015
+	Purpose: Details for movie instance'''
+
 class Movie():
 
     def __init__(self, title, storyline, poster, trailer):

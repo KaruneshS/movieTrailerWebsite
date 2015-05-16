@@ -1,6 +1,9 @@
 import media
 import fresh_tomatoes
 
+'''List of movies to displayin 
+the porta'''
+
 khnh = media.Movie("Kal Ho Na Ho",
                    "A story about a person suffering from cancer",
                    "http://upload.wikimedia.org/wikipedia/en/b/b4/KalHoNaaHo.jpg",
@@ -15,4 +18,5 @@ rhtdm = media.Movie("RHTDM",
 
 movies = [khnh, rhtdm]
 
+'''Show portal page'''
 fresh_tomatoes.open_movies_page(movies)
