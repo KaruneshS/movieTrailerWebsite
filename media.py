@@ -1,5 +1,5 @@
 ''' @desc this class hold functions about movies
-	@author Karunesh karuneshbsarad@gmail.com '''
+    @author Karunesh karuneshbsarad@gmail.com '''
 
 class Movie():
 
@@ -8,11 +8,11 @@ class Movie():
 			   String storyline - storyline for the movie,
 			   String poster - url for the movie poster image
 			   String trailer - url for the movie trailer '''
-			   
-    def __init__(self, title, storyline, poster, trailer):
-        self.title = title
-        self.storyline = storyline
-        self.poster_image_url = poster
-        self.trailer_youtube_url = trailer
+
+        def __init__(self, title, storyline, poster, trailer):
+                self.title = title
+                self.storyline = storyline
+                self.poster_image_url = poster
+                self.trailer_youtube_url = trailer
 
     
